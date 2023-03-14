@@ -211,11 +211,4 @@ class FireWormNPC(NPC):
         self.speed = 0.042
         self.accuracy = 0.30
 
-class HealerNPC(NPC):
-    def __init__(self, game, pos):
-        super().__init__(game, path='resources/sprites/npc/fire_worm/0.png', pos=pos, scale=0.7, shift=0.27, animation_time=250)
-        self.attack_dist = 5
-        self.health = 15000000000
-        self.attack_damage = -30
-        self.speed = 0.042
-        self.accuracy = 100000
+
